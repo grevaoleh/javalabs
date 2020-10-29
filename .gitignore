@@ -1,0 +1,7 @@
+**/.idea/
+**/out/
+*.iml
+**/documentation/
+**/index-files/
+**/resources/
+**/script-dir/
