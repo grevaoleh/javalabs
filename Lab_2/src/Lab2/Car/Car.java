@@ -77,7 +77,7 @@ private String regPlate;
         String model = Models[r.nextInt(10)];
         int buildYear = r.nextInt((2020 - 1991) + 1)+ 1991;
         double price = r.nextInt(1000000) + 10000;
-        String regPlate = String.format("%c%c%4d%c%c",(char)(r.nextInt(27)+65),(char)(r.nextInt(27)+65),r.nextInt(8999)+1000,(char)(r.nextInt(27)+65),(char)(r.nextInt(27)+65));
+        String regPlate = String.format("%c%c%4d%c%c",(char)(r.nextInt(26)+65),(char)(r.nextInt(26)+65),r.nextInt(8999)+1000,(char)(r.nextInt(26)+65),(char)(r.nextInt(26)+65));
         return new Car(id,model,buildYear,price,regPlate);
     }
 }
