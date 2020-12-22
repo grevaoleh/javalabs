@@ -7,7 +7,7 @@ package Lab2;
 //b) список автомобілів заданої моделі, які експлуатуються більше n
 //років;-
 //c) список автомобілів заданого року випуску, ціна яких більше
-//вказаної.
+//вказаної.-
 
 import Lab2.Car.Car;
 import java.time.LocalDate;
@@ -68,30 +68,5 @@ public class Main {
             }
         }
     }
-
-/*
-    public static void output(String model,Car[] arr){
-        for(Car obj:arr){
-            if(obj.getModel().equals(model)){
-                System.out.println(obj);
-            }
-        }
-    }
-    public static void output(String model,int yrsInUse,Car[] arr){
-        LocalDate curDate = LocalDate.now();
-        for(Car obj:arr){
-            if(obj.getModel().equals(model) && (curDate.getYear()-obj.getBuildYear() > yrsInUse)){
-                System.out.println(obj);
-            }
-        }
-    }
-    public static void output(int year,double price,Car[] arr){
-        for(Car obj:arr){
-            if(obj.getBuildYear() == year && obj.getPrice() < price){
-                System.out.println(obj);
-            }
-        }
-    }
-*/
 }
 
