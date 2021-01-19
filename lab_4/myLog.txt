@@ -1,0 +1,8 @@
+Jan 06, 2021 1:19:26 PM lab4.user.Menu execute
+INFO: run add ingredient command
+Jan 06, 2021 1:54:46 PM lab4.user.Menu execute
+INFO: run add ingredient command
+Jan 06, 2021 1:54:54 PM lab4.user.userMenu.menuElements.AddIngredientCommand execute
+WARNING: error while adding ingredient
+Jan 06, 2021 1:55:06 PM lab4.user.Menu execute
+INFO: run show ingredients command
